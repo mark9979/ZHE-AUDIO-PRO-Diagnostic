@@ -1,0 +1,14 @@
+plugins {
+    id 'com.android.application'
+}
+android {
+    namespace 'com.zhe.audiodiag'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'com.zhe.audiodiag'
+        minSdk 28
+        targetSdk 28
+        versionCode 5
+        versionName '0.5'
+    }
+}
